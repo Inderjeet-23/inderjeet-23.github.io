@@ -22,4 +22,4 @@ about:
       text: Duggup
       href: https://duggup.com/dhairya_shah
 ---
-Dhairya Shah is a fourth year undergrad in Computer Science at IIT Gandhinagar. 
+Dhairya Shah is a fourth year undergrad in Computer Science and Engineering at IIT Gandhinagar. 

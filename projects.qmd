@@ -2,7 +2,7 @@
 title: Selected Projects
 ---
 
-1. [[CConformalized Quantile Regression for Energy Disaggregation](https://github.com/anon23sub/anon)]
+1. [[Conformalized Quantile Regression for Energy Disaggregation](https://github.com/anon23sub/anon)]
     Building upon the previously accepted [[paper](https://drive.google.com/file/d/1HLV4uojKy8y2hMv0XwO1TJRTFbgxpXwA/view?usp=sharing)] at Buildsys22, we have used distribution-free likelihood by using Conformal Prediction. Implemented distribution-free uncertainty quantification for energy disaggregation using Conformalized Quantile Regression disaggregation, utilizing the sequence-to-point (S2P) model and publicly available REDD dataset, ensuring reliable prediction intervals and coverage without assuming specific distributions.  Applied smoothing to mitigate same score function outputs in case of sparsely used appliances. Achieved superior or comparable results relative to state-of-the-art, compute-intensive distribution-dependent uncertainty quantification methods with 10 times faster training and 10 - 50 times faster inference. Submitted in Special Track on Web4Good of The Web Conference 2024. (Previously known as WWW Conference)
 
 2. [[Employing Coresets in Machine Learning](https://github.com/DhairyaShah981/Coresets-Machine-Learning)]
