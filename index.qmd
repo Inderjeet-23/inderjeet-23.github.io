@@ -1,6 +1,6 @@
 ---
 title: Dhairya Shah
-image: images/Dhairya-photo.png
+image: images/Dhairya-photo.jpg
 about:
   template: trestles
   image-width: 10em
