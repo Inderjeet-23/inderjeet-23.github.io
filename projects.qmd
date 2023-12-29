@@ -8,7 +8,7 @@ title: Selected Projects
 2. [[Employing Coresets in Machine Learning](https://github.com/DhairyaShah981/Coresets-Machine-Learning)]
     Conducted extensive research on coresets, analyzed mathematical bounds of predictions obtained in problems using linear regression and K-means clustering and highlighted the lack of guarantees for logistic regression. Developed and implemented a new importance sampling algorithm for the K-means classifier, achieving comparable results to the original algorithm on real-world clusterable datasets, namely, Dry Beans and MNIST.
 
-3. [[UCNAPs for Multitask Few-Shot Classification and Regression](https://github.com/DhairyaShah981/cnaps-analysis)]
+3. [[CNAPs for Multitask Few-Shot Classification and Regression](https://github.com/DhairyaShah981/cnaps-analysis)]
     Reproduced the architecture of the Conditional Neural Adaptive Processes (CNAPs) for Multitask few-shot classification, tested it on MNIST, CIFAR10, and CIFAR100, and analyzed the results for increasing number of shots. Built a pre-processing pipeline in CNAPs that supports our own complex datasets, namely Celeb10 (10 facial features as classes), CelebFaces (150 celebrity names as classes), and CelebCars (100 celebrity names and 50 car models as classes). Compared the results of CNAPs on Celeb10 and CelebFaces with Transfer Learning as a baseline and obtained better results in CNAPs for same number of shots. Contributed to implementing CNAPs for regression from scratch and achieved better performance than Hypernetworks and comparable performance with Conditional Neural Processes (CNP). 
 
 4. [[Patient Vitals Extraction from ICU Monitor Screens, Challenge by Cloudphysician](https://github.com/DhairyaShah981/Inter-IIT-Tech-Meet-11.0)]
