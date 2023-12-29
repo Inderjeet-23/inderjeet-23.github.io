@@ -1,5 +1,5 @@
 ---
-title: Haikoo Khandor
+title: Dhairya Shah
 image: images/Haikoo-photo.png
 about:
   template: trestles
@@ -8,19 +8,19 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com/HaikooKhandor
+      href: https://google.com
     - icon: github
       text: Github
-      href: https://github.com/haikookhandor
+      href: https://github.com/DhairyaShah981
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/haikoo-khandor/
+      href: https://google.com
     - icon: envelope
       text: Email
-      href: mailto:haikoo.ashok@iitgn.ac.in
+      href: mailto:dhairya.shah@iitgn.ac.in
     - icon: book
       text: Google Scholar
-      href: https://scholar.google.com/citations?user=MjCaikMAAAAJ&hl=en
+      href: https://google.com
 ---
 Applying for MS in Computer Science (Fall ‘24)
 Haikoo Khandor is a fourth year undergrad in Computer Science at IIT Gandhinagar. His active research interests include Bayesian Machine Learning and
