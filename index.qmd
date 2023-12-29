@@ -1,27 +1,25 @@
 ---
 title: Dhairya Shah
-image: images/Haikoo-photo.png
+image: images/Dhairya-photo.png
 about:
   template: trestles
   image-width: 10em
   image-shape: rounded
   links:
     - icon: twitter
-      text: Twitter
-      href: https://google.com
+      text: X
+      href: https://twitter.com/dhairya_shah09
     - icon: github
       text: Github
       href: https://github.com/DhairyaShah981
     - icon: linkedin
       text: LinkedIn
-      href: https://google.com
+      href: https://www.linkedin.com/in/dhairyashah0819/
     - icon: envelope
       text: Email
       href: mailto:dhairya.shah@iitgn.ac.in
     - icon: book
-      text: Google Scholar
-      href: https://google.com
+      text: Duggup
+      href: https://duggup.com/dhairya_shah
 ---
-Applying for MS in Computer Science (Fall ‘24)
-Haikoo Khandor is a fourth year undergrad in Computer Science at IIT Gandhinagar. His active research interests include Bayesian Machine Learning and
-Deep Learning. He has internship experiences in various companies like HDFC Bank, TCS Research, Mastek and Pravaig Dynamics.
+Dhairya Shah is a fourth year undergrad in Computer Science at IIT Gandhinagar. 

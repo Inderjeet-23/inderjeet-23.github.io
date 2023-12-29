@@ -1,39 +1,18 @@
 ---
-title: Research and Work Experience
+title: Work Experience
 ---
 
-1. Research Intern, TCS Research [Mentor: Supriya Agrawal]
-    * Generated automated test cases using decision trees and random forests for bug-testing and detection  in real software systems. I used
-      different encoding mechanisms for categorical variables and applied boundary coverage and crossover techniques to increase testcases 
-      coverage. 
-    * Employed classical tree-search algorithms on popular libraries like Sklearn, CatBoost, H2o, XGBoost and LightGBM. This helped build fuzzy 
-      logic involving time and sequence of operations. For example: The wiper of a car has several tasks which executed in a proper sequence give 
-      signal for the wipers to turn on. 
+1. Full-Stack App Developer Intern, Datalane Technologies (Mentor - Mr. Vedanta Bhutani, Mr. Rama Krishna Reddy)
+    * Using React Native and Android Studio to develop an app to digitalize the buying and selling of Medicines.
+    * Implemented PostgreSQL and utilized the Medusa API to fetch and display the data on the application.
 
-2. Research Intern, IIT Gandhinagar [Mentor: Prof. Nipun Batra]
-    * Contributed to "pyprobml" owned by Prof.Kevin Murphy, Google Research for figures in his book, "Machine Learning: A Probabilistic 
-      Perspective."
-    * Modified the SOTA Seq2Point to predict mean and sigma appliance power consumption on the publicly available energy dataset REDD dataset. 
-      Quantified uncertainty through approximate Bayesian methods like Deep Ensemble, Bootstrap and MC Dropout in NILM-Uncertainty.
+2. Data Science Intern, Lyne.ai [Mentor: Saatvik Mohan]
+    * Explored natural language processing libraries to extract influential information from a substantial dataset of LinkedIn profiles.
+    * Analyzed the data using AWS tools, namely Redshift and Quicksight, and drew beneficial insights for the clients.
+    * Scraped 20,000 links of articles and extracted job titles, company names, and persons' names using NLTK and Spacy.
 
-3. Functional Analyst Intern, HDFC Bank [Mentor: Pravesh Suvarna]
-    * Researched startups offering products and services leveraging machine learning or blockchain to assist in scaling services during peak 
-      traffic moments. For example: Analysis of 30-40 concurrent million users on Disney-Hotstar during ODI World Cup is performed to identify 
-      future failure points in advance. 
-    * Performed unit tests for netbanking interface. Prepared business requirement documents comprising of technical stack with business logic. 
-      For example: A transaction email classifier to automate email classification which is done manually at the moment. Used bag of words, mneumonic 
-      master to classify transactions to appropriate tiers. 
-
-4. Deep Learning Intern, Mastek [Mentor: Anjali Sohoni Bhide]
-    * Explored Intel OpenVINO, an open source deep learning inference engine for real time use in use cases like Amazon Go. Ran deep learning models
-      for downstream classification tasks like object detection, instance segmentation and many more and collected insights, deductions and time 
-      analysis pertaining to different layers of a neural network. 
-    * Studied applications of OpenVINO in real world usecases like injury prevention, survelliance in high profile sports games like FIFA World cup 
-      2018, medical surgery and much more. 
-
-5. App Developer Intern, Pravaig Dynamics [Mentor: Siddhartha Bagri]
-    * Implemented a robo-taxi app with user and driver side pages with login, sign-up, ride scheduling and communication features. Used open source
-      libraries like React-Native and Supabase for all components from backend to the frontend. Proceeded by an iterative process of database
-      schema design, feedback, ideation, development and improvement.
+3. Software Development Engineering Intern, Bank Of New York Mellon [Mentor: Vikrant Kulkarni]
+    * Initiated a novel concept of Mock Stubs for API testing by developing a Java - Spring Boot web app from scratch for the developers at the company. Enforced role-based authentication and utilized an in-memory database to improve latency.
+    *  Developed critical APIs in Java and comprehensive API documentation using JavaDocs and Swagger UI. Attained 85\% code coverage through unit tests using JUnit while following best practices.
 
 

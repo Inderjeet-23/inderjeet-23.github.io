@@ -8,16 +8,16 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: papers
-        text: Publications
+      # - href: papers
+      #   text: Publications
       # - href: news.qmd
       #   text: News
-      - href: teaching.qmd
-        text: Teaching
+      # - href: teaching.qmd
+      #   text: Teaching
       - href: blog
         text: Blog
       - href: work.qmd
-        text: Research & Work Experience
+        text: Work Experience
       - href: projects.qmd
         text: Projects
     

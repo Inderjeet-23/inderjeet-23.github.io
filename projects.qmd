@@ -2,39 +2,32 @@
 title: Selected Projects
 ---
 
-1. [[Conformal NILM](https://github.com/anon23sub/anon)]
-    Building upon the previously accepted [[paper](../papers/2022/buildsys22-nilm.pdf)] at Buildsys22, we have used distribution-free likelihood 
-    by using Conformal Prediction. Calibration methods like Isotonic regression and Conformal prediction are used on top of SOTA S2P 
-    Homoscedastic/Heteroscedastic models and Quantile S2P model. Applied smoothing to mitigate same score function outputs in case of sparsely 
-    used appliances. Submitted in Special Track on Web4Good of The Web Conference 2024. (Previosly known as WWW Conference)
+1. [[CConformalized Quantile Regression for Energy Disaggregation](https://github.com/anon23sub/anon)]
+    Building upon the previously accepted [[paper](https://drive.google.com/file/d/1HLV4uojKy8y2hMv0XwO1TJRTFbgxpXwA/view?usp=sharing)] at Buildsys22, we have used distribution-free likelihood by using Conformal Prediction. Implemented distribution-free uncertainty quantification for energy disaggregation using Conformalized Quantile Regression disaggregation, utilizing the sequence-to-point (S2P) model and publicly available REDD dataset, ensuring reliable prediction intervals and coverage without assuming specific distributions.  Applied smoothing to mitigate same score function outputs in case of sparsely used appliances. Achieved superior or comparable results relative to state-of-the-art, compute-intensive distribution-dependent uncertainty quantification methods with 10 times faster training and 10 - 50 times faster inference. Submitted in Special Track on Web4Good of The Web Conference 2024. (Previously known as WWW Conference)
 
-2. [[Active NILM](https://github.com/anonn23/anon)]
-    There is a lack of labeled data especially in the energy domain since collecting them require appliance specific sensors to be installed 
-    increasing costs and privacy issues. We used active learning on Pecan Street Dataport dataset, 25 houses in Austin, Texas. Comparable, if
-    not better performance was achieved using only 65% of data. Different acquisition functions like entropy, mutual information, rank based 
-    sampling and round robin was used to help in uncertainty quantification. 
+2. [[Employing Coresets in Machine Learning](https://github.com/DhairyaShah981/Coresets-Machine-Learning)]
+    Conducted extensive research on coresets, analyzed mathematical bounds of predictions obtained in problems using linear regression and K-means clustering and highlighted the lack of guarantees for logistic regression. Developed and implemented a new importance sampling algorithm for the K-means classifier, achieving comparable results to the original algorithm on real-world clusterable datasets, namely, Dry Beans and MNIST.
 
-3. [[Uncertain NILM](https://github.com/haikookhandor/NILM_Uncertainty)]
-    Neural network models traditionally give a point prediction which gives no useful information. Rather if a certain range of interval is 
-    provided, it helps the user make informed decisions. In the energy domain, such information can help reduce energy consumption upto 15%.
-    We were the first one to quantify uncertainty in energy disaggregation. Approximate Bayesian methods like MC Dropout, Deep Ensemble
-    and Bootstrap were used. Moreover, Isotonic regression helped recalibrate the uncertainties. This work is published in ACM Buildsys'2022,
-    a CORE A ranked CS Conference.
+3. [[UCNAPs for Multitask Few-Shot Classification and Regression](https://github.com/DhairyaShah981/cnaps-analysis)]
+    Reproduced the architecture of the Conditional Neural Adaptive Processes (CNAPs) for Multitask few-shot classification, tested it on MNIST, CIFAR10, and CIFAR100, and analyzed the results for increasing number of shots. Built a pre-processing pipeline in CNAPs that supports our own complex datasets, namely Celeb10 (10 facial features as classes), CelebFaces (150 celebrity names as classes), and CelebCars (100 celebrity names and 50 car models as classes). Compared the results of CNAPs on Celeb10 and CelebFaces with Transfer Learning as a baseline and obtained better results in CNAPs for same number of shots. Contributed to implementing CNAPs for regression from scratch and achieved better performance than Hypernetworks and comparable performance with Conditional Neural Processes (CNP). 
 
-4. [[Learning from Synthetic Data](https://github.com/haikookhandor/SnyGenAI)]
-    Image datasets like CIFAR-10, Imagenet-100 have been manually annotated leading to labeling errors and privacy issues. Obtaining these
-    are often difficult and expensive. We use Generative Adversial Networks (GANs) on top of self-supervised learning techniques for 
-    synthetic data generation. By combining them with real images, we train networks for downstream classification tasks achieving a better
-    accuracy. Thereafter, we used Stable diffusion with prompt engineering of domains to get even further realistic images and maintaining a
-    fine tradeoff between fidelity and diversity. 
+4. [[Patient Vitals Extraction from ICU Monitor Screens, Challenge by Cloudphysician](https://github.com/DhairyaShah981/Inter-IIT-Tech-Meet-11.0)]
+    Developed an innovative deep learning model utilizing YOLOv7 for real-time extraction and interpretation of vital signs such as heart rate, blood pressure, and pulse rate from patient monitor screens, contributing to a Smart ICU solution aimed at enabling doctors to monitor multiple patients concurrently from their workstations. Implemented a comprehensive pipeline encompassing monitor screen segmentation, object classification, and graph digitization using advanced techniques like Easy OCR and clustering algorithms, ensuring accurate and contextually relevant extraction of patient vitals for enhanced clinical decision-making.
 
-5. [[Developing test generation techniques from decision trees learnt for insurance migration systems to reduce training data](https://github.com/haikookhandor/TCS_Research)]
-    Insurance systems make new schemes which are either applicable or not applicable to individuals. There are a number of variables which are 
-    present in this scheme determining eligibility. Among these variables there exist constraints which are non-intuitive many times. A decision
-    tree is learnt and finetuned repeatedly by adding testcases generated by parsing the tree. The testcases are generated keeping in mind the
-    constraints a variable might have with other. This resulted in a 7% jump in accuracy in software testing systems.
+5. [[Multimodal Content Analysis and Generation for Social Media Platforms, Challenge by Adobe]]
+    Developing a sophisticated DNN for predicting the popularity of tweets (likes) using a multimodal representation of data, including timestamps, content, and images using ResNet-50 and Universal Sentence Encoder. Utilized Bootstrapping Language-Image Pre-training (BLIP) for initial image-based captioning, enriching content with media insights, and fine-tuned LLaMA-2 for enhanced tweet accuracy and relevance. Established a sophisticated pipeline, effectively combining image captioning and large language models to generate contextually rich and engaging tweets.
 
-6. [[Compilers](https://github.com/haikookhandor/Compiler-Project)]
-    A Compiler built from scratch with Python. It involves the following stages for compiling namely, lexical analysis, parsing, semantic 
-    analysis, optimization, and a user-friendly interface. There are advanced features like error handling. We have also introduced unique 
-    variable “var” for all the different possibilities of writing programs.
+6. [[Statistical Language Modeling using N-Grams](https://github.com/DhairyaShah981/statistical-ngram-lm-nl)]
+    Spearheaded a comprehensive NLP pipeline for processing a vast dataset of Reddit comments, initiating data cleaning and preprocessing techniques to refine and tokenize the corpus, ensuring optimal quality for subsequent analysis. Engineered a custom Language Modeling class from the ground up, integrating advanced smoothing techniques including Laplace, Add-k, and Good-Turing for n-gram models (unigram to pentagram), meticulously evaluating their efficacy through rigorous log perplexity value comparisons to ascertain the most effective smoothing strategy.
+
+7. [[Global Income Inequality Analysis: Challenging Gaussian Distribution Assumptions](https://world-inequality-vis.netlify.app/)]
+    Conducted an in-depth analysis of global income inequality using comprehensive datasets, employing key metrics such as the Gini index, Atkinson Coefficient, and percentile ratios to evaluate wealth distribution patterns across multiple countries. Employed advanced data visualization techniques to present compelling plots conclusively refuting the Gaussian distribution assumption for income and wealth, highlighting significant skewness and long-tailed distributions indicative of pervasive global income inequalities.  
+
+8. [[Notpy - Our own programming language](https://github.com/DhairyaShah981/treewalk-bytecode-interpreter-for-notpy)]
+    Worked in a team of 5 to develop a new programming language, "notpy," from scratch, including language rules, data structures, and core features by building tree walking and bytecode interpreters. Earned top honors in a rigorous hackathon by successfully solving all twenty Euler problems using "notpy" while addressing language bugs and eventually ranked second in the course. 
+
+9. [[Alumni Database Management System](https://github.com/DhairyaShah981/Alumni-Database-Management-System)]
+    Led a 10-member team in developing an Alumni Database System for IIT Gandhinagar from ER Diagram to MySQL database creation, with Flask hosting and Tailwind CSS-driven UI, facilitating role-specific access. Engineered features encompassing data management functionalities like insertion, updates, deletions, filtering, indexing, and custom searches, empowering admin with data export, import, and mailing tools.
+
+10. [[Analysis of Web Cookies and identifying vulnerabilities ](https://github.com/DhairyaShah981/HTTP-cookies-analyser-CN)]
+    Conducted an in-depth analysis of Web Cookies of top websites using tools like Requests and Selenium. Scraped cookies of around 2500 IITGN websites using Hackrawler in Kali Linux and analyzed vulnerabilities using TLS versions. Attempted basic ARP spoofing and XSS attacks on IITGN websites.
