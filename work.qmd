@@ -2,17 +2,8 @@
 title: Work Experience
 ---
 
-1. Full-Stack App Developer Intern, Datalane Technologies (Mentor - Mr. Vedanta Bhutani, Mr. Rama Krishna Reddy)
-    * Using React Native and Android Studio to develop an app to digitalize the buying and selling of Medicines.
-    * Implemented PostgreSQL and utilized the Medusa API to fetch and display the data on the application.
-
-2. Data Science Intern, Lyne.ai [Mentor: Saatvik Mohan]
-    * Explored natural language processing libraries to extract influential information from a substantial dataset of LinkedIn profiles.
-    * Analyzed the data using AWS tools, namely Redshift and Quicksight, and drew beneficial insights for the clients.
-    * Scraped 20,000 links of articles and extracted job titles, company names, and persons' names using NLTK and Spacy.
-
-3. Software Development Engineering Intern, Bank Of New York Mellon [Mentor: Vikrant Kulkarni]
-    * Initiated a novel concept of Mock Stubs for API testing by developing a Java - Spring Boot web app from scratch for the developers at the company. Enforced role-based authentication and utilized an in-memory database to improve latency.
-    *  Developed critical APIs in Java and comprehensive API documentation using JavaDocs and Swagger UI. Attained 85\% code coverage through unit tests using JUnit while following best practices.
-
-
+1. Software Engineering Internship - Atlassian (Mentor: Mr. Abhishek Patel, Senior Software Engineer)
+    * Developed production-level code using Spring Boot Java, enabling data retrieval from Amazon DynamoDB and sending it to the data lake for Opsgenie.
+    * Utilized Amazon SNS and SQS for real-time data updates, dynamically fetching user data and populating human-readable tables using SQL which was then used to create analysis charts for users.
+    * Successfully debugged and tested the entire code using Splunk, ensuring functionality and efficiency before pushing it to production, aiming to save future costs by replacing an outsourced pipeline.
+    * Recieved an offer letter to join as a Full-Time Software Engineer at Atlassian based on my work as an intern.

@@ -1,28 +1,22 @@
 ---
-title: Dhairya Shah
-image: images/Dhairya-photo.jpg
+title: Inderjeet Singh
+image: images/bitmoji.png
 about:
   template: trestles
   image-width: 10em
   image-shape: rounded
   links:
-    - icon: twitter
-      text: X
-      href: https://twitter.com/dhairya_shah09
     - icon: github
       text: Github
-      href: https://github.com/DhairyaShah981
+      href: https://github.com/Inderjeet-23
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/dhairyashah0819/
+      href: https://www.linkedin.com/in/inderjeet-singh-bhullar-351b35198/
     - icon: envelope
       text: Email
-      href: mailto:dhairya.shah@iitgn.ac.in
-    - icon: book
-      text: Duggup
-      href: https://duggup.com/dhairya_shah
+      href: mailto:inderjeet230502@gmail.com
     - icon: document
       text: CV
-      href: https://drive.google.com/file/d/1NAnc6zOWmXLAj7UG9kODA9GG1oCHTdpi/view?usp=sharing
+      href: https://drive.google.com/file/d/1LlDnhDJGYUzw4MPG6CM74jyt2rut2uLn/view?usp=sharing
 ---
-Dhairya Shah is a student pursuing a Bachelor of Technology in Computer Science at the Indian Institute of Technology Gandhinagar, one of India's premier engineering institutes. During the summer, he successfully completed an internship at BNY Mellon, a global leader in investment management and services. In this role, he developed a novel web application for API testing using Java and Spring Boot, thereby enhancing his backend development skills. Additionally, he has interned in Android app development at Datalane and in Natural Language Processing R&D at Lyne.ai.
+Inderjeet Singh Bhullar is a Senior Undergraduate majoring in Computer Science and Engineering at the Indian Institute of Technology Gandhinagar, one of India's top engineering institutions. He completed a successful internship at Atlassian, where he developed production-level code using Spring Boot Java for Opsgenie. His expertise spans both software engineering and data science, including proficiency in Python, Java, and C++. He has worked on innovative projects such as constructing a programming language named ‘Dino’ and exploring machine unlearning and Bayesian unlearning. Inderjeet is also a Teaching Assistant in Machine Learning, showcasing his dedication to sharing knowledge and mentoring others.

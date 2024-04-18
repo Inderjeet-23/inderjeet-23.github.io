@@ -2,32 +2,41 @@
 title: Selected Projects
 ---
 
-1. [[Conformalized Quantile Regression for Energy Disaggregation](https://github.com/anon23sub/anon)]
-    Building upon the previously accepted [[paper](https://drive.google.com/file/d/1HLV4uojKy8y2hMv0XwO1TJRTFbgxpXwA/view?usp=sharing)] at Buildsys22, we have used distribution-free likelihood by using Conformal Prediction. Implemented distribution-free uncertainty quantification for energy disaggregation using Conformalized Quantile Regression disaggregation, utilizing the sequence-to-point (S2P) model and publicly available REDD dataset, ensuring reliable prediction intervals and coverage without assuming specific distributions.  Applied smoothing to mitigate same score function outputs in case of sparsely used appliances. Achieved superior or comparable results relative to state-of-the-art, compute-intensive distribution-dependent uncertainty quantification methods with 10 times faster training and 10 - 50 times faster inference. Submitted in Special Track on Web4Good of The Web Conference 2024. (Previously known as WWW Conference)
+1. [[Machine Unlearning: Forgetting Images](https://github.com/Inderjeet-23/Machine_Unlearning)]
+        * Implemented and explored various Machine Unlearning Algorithms to remove biased or sensitive data from Machine Learning systems, enhancing responsible practices and ethical deployment.
+        * Conducted a thorough analysis of unlearning methods, including fine-tuning, resetting layers, noise injection and other, identifying suitable approaches for various practical use cases.
+        * Evaluated the impact of unlearning methods on accuracy and time, optimizing hyperparameters to improve performance. Implemented basic biometric facial recognition system and tested our unlearning strategies on it.
 
-2. [[Employing Coresets in Machine Learning](https://github.com/DhairyaShah981/Coresets-Machine-Learning)]
-    Conducted extensive research on coresets, analyzed mathematical bounds of predictions obtained in problems using linear regression and K-means clustering and highlighted the lack of guarantees for logistic regression. Developed and implemented a new importance sampling algorithm for the K-means classifier, achieving comparable results to the original algorithm on real-world clusterable datasets, namely, Dry Beans and MNIST.
+2. [[Bayesian Unlearning: Learning to Forget](https://github.com/Kalash0309/Bayesian_Unlearning)]
+        * Investigated Bayesian Unlearning methods to allow Probabilistic Machine Learning models to Unlearn specific data without full retraining, fostering adaptive and responsible models.
+        * Employed mathematical approximations, including Laplace Approximation, Markov chain Monte Carlo Sampling, and Variational Inference, to achieve unlearning in Probabilistic models and assessed their performance.
+        * Derived approximate closed form unlearning approach for logistic regression. Explored Unlearning for Neural Networks, analyzing different libraries' methods and hyperparameters, providing insights and direction for further research in Bayesian Unlearning. 
 
-3. [[CNAPs for Multitask Few-Shot Classification and Regression](https://github.com/DhairyaShah981/cnaps-analysis)]
-    Reproduced the architecture of the Conditional Neural Adaptive Processes (CNAPs) for Multitask few-shot classification, tested it on MNIST, CIFAR10, and CIFAR100, and analyzed the results for increasing number of shots. Built a pre-processing pipeline in CNAPs that supports our own complex datasets, namely Celeb10 (10 facial features as classes), CelebFaces (150 celebrity names as classes), and CelebCars (100 celebrity names and 50 car models as classes). Compared the results of CNAPs on Celeb10 and CelebFaces with Transfer Learning as a baseline and obtained better results in CNAPs for same number of shots. Contributed to implementing CNAPs for regression from scratch and achieved better performance than Hypernetworks and comparable performance with Conditional Neural Processes (CNP). 
+3. [[Dino | Programming Language Using Python Based Interpreter](https://github.com/CS327-Dino/Dino)]
+        * Constructed a fully functional programming language ’Dino’ on top of Python and devised its syntax and scoping.
+        *  Collaborated in a team on GitHub to develop Tree-Walk as well as Byte-Code interpreter for the language.
+        * Implemented a tokenizer, parser, resolver, and evaluator for the interpreter, ensuring efficient and accurate output.
+        * Gained insights into the practical applications of meta-learning and few-shot learning in real-world domains, including Healthcare, Recommendation Systems, LLMs, Autonomous Vehicles, and others.
 
-4. [[Patient Vitals Extraction from ICU Monitor Screens, Challenge by Cloudphysician](https://github.com/DhairyaShah981/Inter-IIT-Tech-Meet-11.0)]
-    Developed an innovative deep learning model utilizing YOLOv7 for real-time extraction and interpretation of vital signs such as heart rate, blood pressure, and pulse rate from patient monitor screens, contributing to a Smart ICU solution aimed at enabling doctors to monitor multiple patients concurrently from their workstations. Implemented a comprehensive pipeline encompassing monitor screen segmentation, object classification, and graph digitization using advanced techniques like Easy OCR and clustering algorithms, ensuring accurate and contextually relevant extraction of patient vitals for enhanced clinical decision-making.
+4. [[eBPF: Packet Filter](https://github.com/Inderjeet-23/eBPF-Packet-Filter)]
+        * Implemented a kernel packet filter using eBPF to detect and drop harmful or untrustworthy packets, enhancing system security by preventing malicious content from affecting the system.
+        *  Developed a port forwarding tool to efficiently redirect incoming packets, optimizing network traffic and balancing system load by distributing packets to different ports.
+        * Designed and tested DoS attack prevention features, including garbage traffic simulation and intelligent IP blocking, demonstrating the effectiveness of eBPF in improving network resilience.
 
-5. [[Multimodal Content Analysis and Generation for Social Media Platforms, Challenge by Adobe]]
-    Developing a sophisticated DNN for predicting the popularity of tweets (likes) using a multimodal representation of data, including timestamps, content, and images using ResNet-50 and Universal Sentence Encoder. Utilized Bootstrapping Language-Image Pre-training (BLIP) for initial image-based captioning, enriching content with media insights, and fine-tuned LLaMA-2 for enhanced tweet accuracy and relevance. Established a sophisticated pipeline, effectively combining image captioning and large language models to generate contextually rich and engaging tweets.
+5. [[Reputation and Conflict Propagation in Signed Networks](https://drive.google.com/file/d/1Bg1EDM1E27PPB10x3VCDgcieSOu78Z0R/view)]
+        * Investigated Signed Reddit Hyperlink Network, and defined mathematical notions of trustworthiness among network nodes across 86 different edge attributes.
+        *  Applied RandomForest Algorithm on network edge attributes and formulated hate factor for each subreddit post.
+        * Predicted conflict propagation in the network using analysis of varied centrality measures and an LSTM model.
 
-6. [[Statistical Language Modeling using N-Grams](https://github.com/DhairyaShah981/statistical-ngram-lm-nl)]
-    Spearheaded a comprehensive NLP pipeline for processing a vast dataset of Reddit comments, initiating data cleaning and preprocessing techniques to refine and tokenize the corpus, ensuring optimal quality for subsequent analysis. Engineered a custom Language Modeling class from the ground up, integrating advanced smoothing techniques including Laplace, Add-k, and Good-Turing for n-gram models (unigram to pentagram), meticulously evaluating their efficacy through rigorous log perplexity value comparisons to ascertain the most effective smoothing strategy.
+6. [[Statistical Language Modeling using N-Grams](https://github.com/CS613-NLP/assignment-2)]
+        * Spearheaded a comprehensive NLP pipeline for processing a vast dataset of Reddit comments, initiating data cleaning and preprocessing techniques to refine and tokenize the corpus, ensuring optimal quality for subsequent analysis.
+        *  Engineered a custom Language Modeling class from the ground up, integrating advanced smoothing techniques including Laplace, Add-k, and Good-Turing for n-gram models (unigram to pentagram), meticulously evaluating their efficacy through rigorous log perplexity value comparisons to ascertain the most effective smoothing strategy. 
 
-7. [[Global Income Inequality Analysis: Challenging Gaussian Distribution Assumptions](https://world-inequality-vis.netlify.app/)]
-    Conducted an in-depth analysis of global income inequality using comprehensive datasets, employing key metrics such as the Gini index, Atkinson Coefficient, and percentile ratios to evaluate wealth distribution patterns across multiple countries. Employed advanced data visualization techniques to present compelling plots conclusively refuting the Gaussian distribution assumption for income and wealth, highlighting significant skewness and long-tailed distributions indicative of pervasive global income inequalities.  
+7. [[Alumni Database Management System](https://github.com/RahulVC02/Alumni-Database-Webapp)]
+        * Worked in a team to develop an Alumni Database System for IIT Gandhinagar from ER Diagram to MySQL database creation, with Flask hosting and Tailwind CSS-driven UI, facilitating role-specific access.
+        *  Engineered features that encompass data management functionalities like insertion, updates, deletions, filtering, indexing, and custom searches, empowering admin with data export, import, and mailing tools.
 
-8. [[Notpy - Our own programming language](https://github.com/DhairyaShah981/treewalk-bytecode-interpreter-for-notpy)]
-    Worked in a team of 5 to develop a new programming language, "notpy," from scratch, including language rules, data structures, and core features by building tree walking and bytecode interpreters. Earned top honors in a rigorous hackathon by successfully solving all twenty Euler problems using "notpy" while addressing language bugs and eventually ranked second in the course. 
-
-9. [[Alumni Database Management System](https://github.com/DhairyaShah981/Alumni-Database-Management-System)]
-    Led a 10-member team in developing an Alumni Database System for IIT Gandhinagar from ER Diagram to MySQL database creation, with Flask hosting and Tailwind CSS-driven UI, facilitating role-specific access. Engineered features encompassing data management functionalities like insertion, updates, deletions, filtering, indexing, and custom searches, empowering admin with data export, import, and mailing tools.
-
-10. [[Analysis of Web Cookies and identifying vulnerabilities ](https://github.com/DhairyaShah981/HTTP-cookies-analyser-CN)]
-    Conducted an in-depth analysis of Web Cookies of top websites using tools like Requests and Selenium. Scraped cookies of around 2500 IITGN websites using Hackrawler in Kali Linux and analyzed vulnerabilities using TLS versions. Attempted basic ARP spoofing and XSS attacks on IITGN websites.
+8. [[Neural Networks vs Tree Based Algorithm on Tabular Data](https://drive.google.com/file/d/1Jca22e6IkQPnA3JLOPxXvbb_EMrrU6yN/view?usp=sharing)]
+        * Explored the performance of deep learning methods versus tree-based methods on tabular data, finding instances where tree-based models outshines and areas where deep learning can improve.
+        *  Utilized various input data transformation techniques, such as feature rotation and smoothing along with comparison of state-of-the-art tree based models like XGBoost against deep learning architectures like Hopular and TabPFN.
+        * Improved neural network performance through techniques such as input embedding, data augmentation, and regularization methods, demonstrating that deep learning can surpass tree-based models in a few scenarios. 
