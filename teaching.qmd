@@ -6,5 +6,4 @@ title: Teaching Experience
 
     Teaching Assistant
 
-    *Offered the position of Undergraduate Teaching Assistant in the Machine Learning course. Assisted the professor in smoothly running this course of 250+ students. 
-    *Responsibilities consisted of - Taking Extra Lectures, Evaluating Quizzes, Creating Assignments, Taking Vivas amongst other things.
+    *Offered the position of Undergraduate Teaching Assistant in the Machine Learning course. Assisted the professor in smoothly running this course of 250+ students. Responsibilities consisted of - Taking Extra Lectures, Evaluating Quizzes, Creating Assignments, Taking Vivas amongst other things.
