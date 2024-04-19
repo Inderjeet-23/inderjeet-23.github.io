@@ -8,12 +8,12 @@ title: Work Experience
     * Successfully debugged and tested the entire code using Splunk, ensuring functionality and efficiency before pushing it to production, aiming to save future costs by replacing an outsourced pipeline.
     * Recieved an offer letter to join as a Full-Time Software Engineer at Atlassian based on my work as an intern.
 
-2. [Machine Unlearning: Forgetting Images](https://github.com/Inderjeet-23/Machine_Unlearning) (Reaseach Project under [Prof. Nipun Batra](https://nipunbatra.github.io/))
+2. [Machine Unlearning: Forgetting Images](https://github.com/Inderjeet-23/Machine_Unlearning) (Research Project under [Prof. Nipun Batra](https://nipunbatra.github.io/))
     * Implemented and explored various Machine Unlearning Algorithms to remove biased or sensitive data from Machine Learning systems, enhancing responsible practices and ethical deployment.
     * Conducted a thorough analysis of unlearning methods, including fine-tuning, resetting layers, noise injection and other, identifying suitable approaches for various practical use cases.
     * Evaluated the impact of unlearning methods on accuracy and time, optimizing hyperparameters to improve performance. Implemented basic biometric facial recognition system and tested our unlearning strategies on it.
 
-3. [Bayesian Unlearning: Learning to Forget](https://github.com/Kalash0309/Bayesian_Unlearning) (Reaseach Project under [Prof. Nipun Batra](https://nipunbatra.github.io/))
+3. [Bayesian Unlearning: Learning to Forget](https://github.com/Kalash0309/Bayesian_Unlearning) (Research Project under [Prof. Nipun Batra](https://nipunbatra.github.io/))
     * Investigated Bayesian Unlearning methods to allow Probabilistic Machine Learning models to Unlearn specific data without full retraining, fostering adaptive and responsible models.
     * Employed mathematical approximations, including Laplace Approximation, Markov chain Monte Carlo Sampling, and Variational Inference, to achieve unlearning in Probabilistic models and assessed their performance.
     * Derived approximate closed form unlearning approach for logistic regression. Explored Unlearning for Neural Networks, analyzing different libraries' methods and hyperparameters, providing insights and direction for further research in Bayesian Unlearning. 
